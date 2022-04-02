@@ -3,7 +3,7 @@ import './Heading.css';
 
 const Heading = () => {
     return (
-        <div className='header'>
+        <div className='container header'>
             <div className='logo'>
                 .theAnimals
             </div>
@@ -11,17 +11,17 @@ const Heading = () => {
             <div className='nav'>
                 <ul className='nav-list'>
                     <li className='nav-list-item'>
-                        <a href='home' className='nav-list-item__link'>
+                        <a href='/home' className='nav-list-item__link'>
                             Trang chủ
                         </a>
                     </li>
                     <li className='nav-list-item'>
-                        <a href='home' className='nav-list-item__link'>
+                        <a href='/how_it_work' className='nav-list-item__link'>
                             Cách hoạt động
                         </a>
                     </li>
                     <li className='nav-list-item'>
-                        <a href='home' className='nav-list-item__link'>
+                        <a href='/info' className='nav-list-item__link'>
                             Thông tin
                         </a>
                     </li>
