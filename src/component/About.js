@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
 import './About.css';
 import Img from '../assets/img/home_img.png';
 
@@ -28,7 +30,7 @@ const About = () => {
                         </div>
                     </div>
 
-                    <button className='about-btn'>Hãy thử nào</button>
+                    <Link to="/" className='about-btn'>Hãy thử nào</Link>
                 </div>
             </div>
         </div>

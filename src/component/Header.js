@@ -1,29 +1,30 @@
 import React from 'react';
-import './Heading.css';
+import { Link } from 'react-router-dom';
+import './Header.css';
 
-const Heading = () => {
+const Header = () => {
     return (
         <div className='container header'>
-            <div className='logo'>
+            <Link to="/" className='logo'>
                 .theAnimals
-            </div>
+            </Link>
 
             <div className='nav'>
                 <ul className='nav-list'>
                     <li className='nav-list-item'>
-                        <a href='/home' className='nav-list-item__link'>
+                        <Link to="/" className='nav-list-item__link'>
                             Trang chủ
-                        </a>
+                        </Link>
                     </li>
                     <li className='nav-list-item'>
-                        <a href='/how_it_work' className='nav-list-item__link'>
+                        <Link to="/how_it_work" className='nav-list-item__link'>
                             Cách hoạt động
-                        </a>
+                        </Link>
                     </li>
                     <li className='nav-list-item'>
-                        <a href='/info' className='nav-list-item__link'>
+                        <Link to="/info" className='nav-list-item__link'>
                             Thông tin
-                        </a>
+                        </Link>
                     </li>
                 </ul>
             </div>
@@ -31,4 +32,4 @@ const Heading = () => {
     )
 }
 
-export default Heading;
+export default Header;

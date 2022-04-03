@@ -1,0 +1,10 @@
+.footer {
+    padding: 60px 0;
+    /* background-color: var(--bg-footer); */
+}
+
+.footer-content {
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+}

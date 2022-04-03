@@ -46,8 +46,10 @@
     font-weight: 700;
     padding: 1rem 6rem;
     border-radius: 30px;
+    color: var(--black-color);
     background-color: var(--white-color);
     border: 1px solid var(--primary-color);
+    text-decoration: none;
 }
 
 .about-btn:hover {
