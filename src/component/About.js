@@ -24,7 +24,7 @@ const About = () => {
                         <div className="about-step">
                             <i class="fa-solid fa-list step-icon"></i>
                             <p className="title-step">Bước 2</p>
-                            <p className="des-step">Một danh sách con vật trùng khớp với từ khóa sẽ hiện ra.</p>
+                            <p className="des-step">Một danh sách động vật trùng khớp với từ khóa sẽ được hiển thị.</p>
                         </div>
                     </div>
 

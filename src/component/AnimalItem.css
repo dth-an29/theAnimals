@@ -1,0 +1,69 @@
+.animal {
+    transition: transform ease-in 0.1s;
+  will-change: transform;
+}
+
+.animal:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 20px 0 rgb(0 0 0 / 5%);
+}
+
+.animal-item {
+    position: relative;
+    display: block;
+    text-decoration: none;
+    margin-top: 10px;
+    background-color: var(--white-color);
+    /* border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px; */
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 10%);
+    border-radius: 10px;
+}
+
+.animal-item__img {
+    padding-top: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.animal-item__name {
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-align: center;
+    color: var(--black-color);
+    line-height: 1.8rem;
+    height: 3.6rem;
+    margin: 10px 10px 6px;
+    overflow: hidden;
+    display: block;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    text-overflow: ellipsis;
+}
+
+.animal-item__des {
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: var(--black-color);
+    line-height: 1.8rem;
+    height: 5.2rem;
+    margin: 10px 10px 6px;
+    overflow: hidden;
+    display: block;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    text-overflow: ellipsis;
+}
+
+.animal-item__more {
+    font-size: 1.4rem;
+    font-weight: 300;
+    line-height: 2rem;
+    padding: 1rem;
+    text-align: center;
+    color: var(--primary-color);
+    cursor: pointer;
+}

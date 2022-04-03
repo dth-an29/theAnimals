@@ -1,9 +1,10 @@
 import React from 'react';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './component/Heading';
 import Home from './component/Home';
 import About from './component/About';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import Info from './component/Info';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Header />
       <Home />
       <About />
+      <Info />
     </div>
   );
 }
