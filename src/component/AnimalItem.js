@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './AnimalItem.css';
 import Img from '../assets/img/Kaloula_pulchra2.JPG';
 
@@ -6,7 +7,7 @@ import Img from '../assets/img/Kaloula_pulchra2.JPG';
 const AnimalItem = () => {
     return (
         <div className="col-md-2 animal">
-            <div className="animal-item">
+            <Link to="/detail" className="animal-item">
                 <div className="animal-item__img" style={{ backgroundImage: `url(${Img})` }} alt="animal-img"></div>
 
                 <p className="animal-item__name">Ễn ương</p>
@@ -20,7 +21,7 @@ const AnimalItem = () => {
                 </p>
 
                 <p className="animal-item__more">Tìm hiểu thêm</p>
-            </div>
+            </Link>
         </div>
     )
 }

@@ -43,7 +43,11 @@
 }
 
 .search-icon:hover {
-    opacity: .85;
+    color: var(--white-color);
+}
+
+.search-icon:active {
+    color: var(--black-color);
 }
 
 .home-img {
