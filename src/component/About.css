@@ -2,6 +2,10 @@
     padding: 100px 0;
 }
 
+.about-image {
+    margin: auto;
+}
+
 .about-img {
     width: 100%;
 }
